@@ -10,7 +10,8 @@ However, the details of formatting (rather than network topology) are handled by
  
 [pyyed](https://github.com/jamesscottbrown/pyyed) is a sublime library to create graphml formatted diagrams .  However the Group Class is missing an add_edge() method which is essential to create nested graphs which are in line with the GraphML [Nested Graphs](http://graphml.graphdrawing.org/primer/graphml-primer.html#Nested) specification.
 
-This repo consists of a modified pyyed.py file which implements the Group.add_edge() method.  Furthermore there is a demo script with the resulting graphml file.
+This repo consists of a modified pyyed.py file which implements the Group.add_edge() method.  The added lines (code blocks) qre marked with a "#" at the end of the their line.
+Furthermore there is a demo script with the resulting graphml file.
 
 I am hoping my analysis is up to par. 
 
