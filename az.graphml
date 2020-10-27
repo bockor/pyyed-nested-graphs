@@ -1,0 +1,692 @@
+<?xml version="1.0" ?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+	<key for="node" id="data_node" yfiles.type="nodegraphics"/>
+	<key attr.name="url" attr.type="string" for="node" id="d4"/>
+	<key attr.name="description" attr.type="string" for="node" id="d100"/>
+	<key attr.name="ipv4addr" attr.type="string" for="node" id="d101"/>
+	<key for="edge" id="data_edge" yfiles.type="edgegraphics"/>
+	<graph edgedefault="directed" id="G">
+		<node id="BC">
+			<data key="d100"/>
+			<data key="d101"/>
+			<data key="data_node">
+				<y:ShapeNode>
+					<y:Fill color="#FF0000" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BC</y:NodeLabel>
+					<y:Shape type="ellipse"/>
+				</y:ShapeNode>
+			</data>
+		</node>
+		<node id="A" yfiles.foldertype="group">
+			<data key="data_node">
+				<y:ProxyAutoBoundsNode>
+					<y:Realizers active="0">
+						<y:GroupNode>
+							<y:Fill color="#FFCC00" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">A</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+							<y:State closed="false"/>
+						</y:GroupNode>
+					</y:Realizers>
+				</y:ProxyAutoBoundsNode>
+			</data>
+			<graph edgedefault="directed" id="A">
+				<node id="BCA">
+					<data key="d100"/>
+					<data key="d101"/>
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#FF0000" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCA</y:NodeLabel>
+							<y:Shape type="ellipse"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="A1" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">A1</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="A1">
+						<node id="BCA1">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCA1</y:NodeLabel>
+									<y:Shape type="ellipse"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="A2" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">A2</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="A2">
+						<node id="BCA2">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCA2</y:NodeLabel>
+									<y:Shape type="ellipse"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="11.0.0.0/24">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">11.0.0.0/24</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="11.0.1.0/24">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">11.0.1.0/24</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="SRVs@11.0.0.0/24" yfiles.foldertype="group">
+							<data key="data_node">
+								<y:ProxyAutoBoundsNode>
+									<y:Realizers active="0">
+										<y:GroupNode>
+											<y:Fill color="#FFCC00" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">SRVs@11.0.0.0/24</y:NodeLabel>
+											<y:Shape type="ellipse"/>
+											<y:State closed="false"/>
+										</y:GroupNode>
+									</y:Realizers>
+								</y:ProxyAutoBoundsNode>
+							</data>
+							<graph edgedefault="directed" id="SRVs@11.0.0.0/24">
+								<node id="dns.a.net">
+									<data key="d100"/>
+									<data key="d101"/>
+									<data key="data_node">
+										<y:ShapeNode>
+											<y:Fill color="#FF0000" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">dns.a.net</y:NodeLabel>
+											<y:Shape type="rectangle"/>
+										</y:ShapeNode>
+									</data>
+								</node>
+								<node id="www.a.net">
+									<data key="d100"/>
+									<data key="d101"/>
+									<data key="data_node">
+										<y:ShapeNode>
+											<y:Fill color="#FF0000" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">www.a.net</y:NodeLabel>
+											<y:Shape type="rectangle"/>
+										</y:ShapeNode>
+									</data>
+								</node>
+								<node id="dc1.a.net">
+									<data key="d100"/>
+									<data key="d101"/>
+									<data key="data_node">
+										<y:ShapeNode>
+											<y:Fill color="#FF0000" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">dc1.a.net</y:NodeLabel>
+											<y:Shape type="rectangle"/>
+										</y:ShapeNode>
+									</data>
+								</node>
+							</graph>
+						</node>
+						<node id="SRVs@11.0.1.0/24" yfiles.foldertype="group">
+							<data key="data_node">
+								<y:ProxyAutoBoundsNode>
+									<y:Realizers active="0">
+										<y:GroupNode>
+											<y:Fill color="#FFCC00" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">SRVs@11.0.1.0/24</y:NodeLabel>
+											<y:Shape type="ellipse"/>
+											<y:State closed="false"/>
+										</y:GroupNode>
+									</y:Realizers>
+								</y:ProxyAutoBoundsNode>
+							</data>
+							<graph edgedefault="directed" id="SRVs@11.0.1.0/24">
+								<node id="chat.a.net">
+									<data key="d100"/>
+									<data key="d101"/>
+									<data key="data_node">
+										<y:ShapeNode>
+											<y:Fill color="#FF0000" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">chat.a.net</y:NodeLabel>
+											<y:Shape type="rectangle"/>
+										</y:ShapeNode>
+									</data>
+								</node>
+							</graph>
+						</node>
+						<edge id="11.0.0.0/24_SRVs@11.0.0.0/24" source="11.0.0.0/24" target="SRVs@11.0.0.0/24">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="line" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+						<edge id="11.0.1.0/24_SRVs@11.0.1.0/24" source="11.0.1.0/24" target="SRVs@11.0.1.0/24">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="line" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+						<edge id="BCA2_11.0.0.0/24" source="BCA2" target="11.0.0.0/24">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="line" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+						<edge id="BCA2_11.0.1.0/24" source="BCA2" target="11.0.1.0/24">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="line" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+						<edge id="dc1.a.net_chat.a.net" source="dc1.a.net" target="chat.a.net">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+					</graph>
+				</node>
+				<node id="A3" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">A3</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="A3">
+						<node id="BCA3">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCA3</y:NodeLabel>
+									<y:Shape type="ellipse"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="A4" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">A4</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="A4">
+						<node id="BCA4">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCA4</y:NodeLabel>
+									<y:Shape type="ellipse"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<edge id="BCA_BCA2" source="BCA" target="BCA2">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="BCA_BCA1" source="BCA" target="BCA1">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="BCA_BCA3" source="BCA" target="BCA3">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="BCA_BCA4" source="BCA" target="BCA4">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+			</graph>
+		</node>
+		<node id="Z" yfiles.foldertype="group">
+			<data key="data_node">
+				<y:ProxyAutoBoundsNode>
+					<y:Realizers active="0">
+						<y:GroupNode>
+							<y:Fill color="#FFCC00" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">Z</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+							<y:State closed="false"/>
+						</y:GroupNode>
+					</y:Realizers>
+				</y:ProxyAutoBoundsNode>
+			</data>
+			<graph edgedefault="directed" id="Z">
+				<node id="BCZ">
+					<data key="d100"/>
+					<data key="d101"/>
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#FF0000" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCZ</y:NodeLabel>
+							<y:Shape type="ellipse"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="Z1" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">Z1</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="Z1">
+						<node id="BCZ1">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCZ1</y:NodeLabel>
+									<y:Shape type="ellipse"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="Z2" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">Z2</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="Z2">
+						<node id="BCZ2">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCZ2</y:NodeLabel>
+									<y:Shape type="ellipse"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="10.0.0.0/24">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">10.0.0.0/24</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="10.0.1.0/24">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">10.0.1.0/24</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="SRVs@10.0.0.0/24" yfiles.foldertype="group">
+							<data key="data_node">
+								<y:ProxyAutoBoundsNode>
+									<y:Realizers active="0">
+										<y:GroupNode>
+											<y:Fill color="#FFCC00" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">SRVs@10.0.0.0/24</y:NodeLabel>
+											<y:Shape type="ellipse"/>
+											<y:State closed="false"/>
+										</y:GroupNode>
+									</y:Realizers>
+								</y:ProxyAutoBoundsNode>
+							</data>
+							<graph edgedefault="directed" id="SRVs@10.0.0.0/24">
+								<node id="dns.z.net">
+									<data key="d100"/>
+									<data key="d101"/>
+									<data key="data_node">
+										<y:ShapeNode>
+											<y:Fill color="#FF0000" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">dns.z.net</y:NodeLabel>
+											<y:Shape type="rectangle"/>
+										</y:ShapeNode>
+									</data>
+								</node>
+								<node id="www.z.net">
+									<data key="d100"/>
+									<data key="d101"/>
+									<data key="data_node">
+										<y:ShapeNode>
+											<y:Fill color="#FF0000" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">www.z.net</y:NodeLabel>
+											<y:Shape type="rectangle"/>
+										</y:ShapeNode>
+									</data>
+								</node>
+								<node id="dc1.z.net">
+									<data key="d100"/>
+									<data key="d101"/>
+									<data key="data_node">
+										<y:ShapeNode>
+											<y:Fill color="#FF0000" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">dc1.z.net</y:NodeLabel>
+											<y:Shape type="rectangle"/>
+										</y:ShapeNode>
+									</data>
+								</node>
+							</graph>
+						</node>
+						<node id="SRVs@10.0.1.0/24" yfiles.foldertype="group">
+							<data key="data_node">
+								<y:ProxyAutoBoundsNode>
+									<y:Realizers active="0">
+										<y:GroupNode>
+											<y:Fill color="#FFCC00" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">SRVs@10.0.1.0/24</y:NodeLabel>
+											<y:Shape type="ellipse"/>
+											<y:State closed="false"/>
+										</y:GroupNode>
+									</y:Realizers>
+								</y:ProxyAutoBoundsNode>
+							</data>
+							<graph edgedefault="directed" id="SRVs@10.0.1.0/24">
+								<node id="chat.z.net">
+									<data key="d100"/>
+									<data key="d101"/>
+									<data key="data_node">
+										<y:ShapeNode>
+											<y:Fill color="#FF0000" transparent="false"/>
+											<y:BorderStyle color="#000000" type="line" width="1.0"/>
+											<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">chat.z.net</y:NodeLabel>
+											<y:Shape type="rectangle"/>
+										</y:ShapeNode>
+									</data>
+								</node>
+							</graph>
+						</node>
+						<edge id="10.0.0.0/24_SRVs@10.0.0.0/24" source="10.0.0.0/24" target="SRVs@10.0.0.0/24">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="line" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+						<edge id="10.0.1.0/24_SRVs@10.0.1.0/24" source="10.0.1.0/24" target="SRVs@10.0.1.0/24">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="line" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+						<edge id="BCZ2_10.0.0.0/24" source="BCZ2" target="10.0.0.0/24">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="line" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+						<edge id="BCZ2_10.0.1.0/24" source="BCZ2" target="10.0.1.0/24">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="line" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+						<edge id="dc1.z.net_chat.z.net" source="dc1.z.net" target="chat.z.net">
+							<data key="data_edge">
+								<y:PolyLineEdge>
+									<y:Arrows source="none" target="none"/>
+									<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+								</y:PolyLineEdge>
+							</data>
+						</edge>
+					</graph>
+				</node>
+				<node id="Z3" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">Z3</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="Z3">
+						<node id="BCZ3">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCZ3</y:NodeLabel>
+									<y:Shape type="ellipse"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="Z4" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">Z4</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="Z4">
+						<node id="BCZ4">
+							<data key="d100"/>
+							<data key="d101"/>
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">BCZ4</y:NodeLabel>
+									<y:Shape type="ellipse"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<edge id="BCZ_BCZ2" source="BCZ" target="BCZ2">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="BCZ_BCZ1" source="BCZ" target="BCZ1">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="BCZ_BCZ3" source="BCZ" target="BCZ3">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="BCZ_BCZ4" source="BCZ" target="BCZ4">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+			</graph>
+		</node>
+		<edge id="1" source="BC" target="BCA">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="2" source="BC" target="BCZ">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="3" source="chat.a.net" target="chat.z.net">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="dotted" width="2.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+	</graph>
+</graphml>
