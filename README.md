@@ -1,4 +1,4 @@
-# pyyed Real-Life-Examples
+# pyyed Nested Graphs
 
 [pyyed](https://github.com/jamesscottbrown/pyyed) is a simple Python library to export networks to [yEd](http://www.yworks.com/en/products_yed_about.html).
 
