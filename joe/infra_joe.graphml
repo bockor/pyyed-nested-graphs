@@ -1,0 +1,352 @@
+<?xml version="1.0" ?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+	<key id="data_node" for="node" yfiles.type="nodegraphics"/>
+	<key id="data_edge" for="edge" yfiles.type="edgegraphics"/>
+	<graph edgedefault="directed" id="G">
+		<node id="RX">
+			<data key="data_node">
+				<y:ShapeNode>
+					<y:Fill color="#FF0000" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">RX</y:NodeLabel>
+					<y:Shape type="rectangle"/>
+				</y:ShapeNode>
+			</data>
+		</node>
+		<node id="LOC1" yfiles.foldertype="group">
+			<data key="data_node">
+				<y:ProxyAutoBoundsNode>
+					<y:Realizers active="0">
+						<y:GroupNode>
+							<y:Fill color="#FFCC00" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel modelName="internal" modelPosition="t" fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">LOC1</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+							<y:State closed="false"/>
+						</y:GroupNode>
+					</y:Realizers>
+				</y:ProxyAutoBoundsNode>
+			</data>
+			<graph edgedefault="directed" id="LOC1">
+				<node id="R1">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#FF0000" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">R1</y:NodeLabel>
+							<y:Shape type="ellipse"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="R2">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#FF0000" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">R2</y:NodeLabel>
+							<y:Shape type="ellipse"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<edge id="1" source="R1" target="R2">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+			</graph>
+		</node>
+		<node id="LOC2" yfiles.foldertype="group">
+			<data key="data_node">
+				<y:ProxyAutoBoundsNode>
+					<y:Realizers active="0">
+						<y:GroupNode>
+							<y:Fill color="#FFCC00" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel modelName="internal" modelPosition="t" fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">LOC2</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+							<y:State closed="false"/>
+						</y:GroupNode>
+					</y:Realizers>
+				</y:ProxyAutoBoundsNode>
+			</data>
+			<graph edgedefault="directed" id="LOC2">
+				<node id="R3">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#FF0000" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">R3</y:NodeLabel>
+							<y:Shape type="ellipse"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="R30">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#FF0000" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">R30</y:NodeLabel>
+							<y:Shape type="ellipse"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="TECHIES" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel modelName="internal" modelPosition="t" fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">TECHIES</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="TECHIES">
+						<node id="Eddy">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">Eddy</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="Teddy">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">Teddy</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="Freddy">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">Freddy</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="SERVICES" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel modelName="internal" modelPosition="t" fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">SERVICES</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="SERVICES">
+						<node id="DNS">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">DNS</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="WWW">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">WWW</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="MAIL">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">MAIL</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="SERVICES2" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel modelName="internal" modelPosition="t" fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">SERVICES2</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="SERVICES2">
+						<node id="DNS2">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">DNS2</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="WWW2">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">WWW2</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="MAIL2">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">MAIL2</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<edge id="2" source="Teddy" target="DNS">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="standard"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="3" source="Teddy" target="WWW">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="standard"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="4" source="Teddy" target="MAIL">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="standard"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="5" source="Eddy" target="DNS2">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="standard"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="6" source="Eddy" target="WWW2">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="standard"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="7" source="Freddy" target="MAIL2">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="standard"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="8" source="Freddy" target="R3">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="standard"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="9" source="Freddy" target="R30">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="standard"/>
+							<y:LineStyle color="#000000" type="line" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="10" source="R3" target="SERVICES">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="11" source="R30" target="SERVICES2">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+				<edge id="12" source="SERVICES" target="SERVICES2">
+					<data key="data_edge">
+						<y:PolyLineEdge>
+							<y:Arrows source="none" target="none"/>
+							<y:LineStyle color="#000000" type="dotted" width="1.0"/>
+						</y:PolyLineEdge>
+					</data>
+				</edge>
+			</graph>
+		</node>
+		<edge id="13" source="R3" target="R2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="14" source="R30" target="R2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="15" source="Freddy" target="RX">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+	</graph>
+</graphml>
