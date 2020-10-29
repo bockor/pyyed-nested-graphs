@@ -1,10 +1,10 @@
 #import pyyedplus
-#import pyyedjoe
-import pyyed
+import pyyedjoe
+#import pyyed
 #
 #g = pyyedplus.Graph()
-#g = pyyedjoe.Graph()
-g =pyyed.Graph()
+g = pyyedjoe.Graph()
+#g =pyyed.Graph()
 #
 
 loc1 = g.add_group('LOC1')
@@ -54,4 +54,4 @@ g.add_edge('Freddy','RX', arrowhead='none')
 
 
 
-g.write_graph('infra_pyyed.graphml', pretty_print=True)
+g.write_graph('infra_joe.graphml', pretty_print=True)

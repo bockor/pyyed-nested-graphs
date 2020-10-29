@@ -48,14 +48,6 @@
 						</y:ShapeNode>
 					</data>
 				</node>
-				<edge id="1" source="R1" target="R2">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="none"/>
-							<y:LineStyle color="#000000" type="line" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
 			</graph>
 		</node>
 		<node id="LOC2" yfiles.foldertype="group">
@@ -234,96 +226,104 @@
 						</node>
 					</graph>
 				</node>
-				<edge id="2" source="Teddy" target="DNS">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="standard"/>
-							<y:LineStyle color="#000000" type="line" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="3" source="Teddy" target="WWW">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="standard"/>
-							<y:LineStyle color="#000000" type="line" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="4" source="Teddy" target="MAIL">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="standard"/>
-							<y:LineStyle color="#000000" type="line" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="5" source="Eddy" target="DNS2">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="standard"/>
-							<y:LineStyle color="#000000" type="line" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="6" source="Eddy" target="WWW2">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="standard"/>
-							<y:LineStyle color="#000000" type="line" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="7" source="Freddy" target="MAIL2">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="standard"/>
-							<y:LineStyle color="#000000" type="line" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="8" source="Freddy" target="R3">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="standard"/>
-							<y:LineStyle color="#000000" type="line" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="9" source="Freddy" target="R30">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="standard"/>
-							<y:LineStyle color="#000000" type="line" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="10" source="R3" target="SERVICES">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="none"/>
-							<y:LineStyle color="#000000" type="dashed" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="11" source="R30" target="SERVICES2">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="none"/>
-							<y:LineStyle color="#000000" type="dashed" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
-				<edge id="12" source="SERVICES" target="SERVICES2">
-					<data key="data_edge">
-						<y:PolyLineEdge>
-							<y:Arrows source="none" target="none"/>
-							<y:LineStyle color="#000000" type="dotted" width="1.0"/>
-						</y:PolyLineEdge>
-					</data>
-				</edge>
 			</graph>
 		</node>
+		<edge id="1" source="R1" target="R2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="2" source="Teddy" target="DNS">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="standard"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="3" source="Teddy" target="WWW">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="standard"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="4" source="Teddy" target="MAIL">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="standard"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="5" source="Eddy" target="DNS2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="standard"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="6" source="Eddy" target="WWW2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="standard"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="7" source="Freddy" target="MAIL2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="standard"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="8" source="Freddy" target="R3">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="standard"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="9" source="Freddy" target="R30">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="standard"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="10" source="R3" target="SERVICES">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="11" source="R30" target="SERVICES2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="12" source="SERVICES" target="SERVICES2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="dotted" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
 		<edge id="13" source="R3" target="R2">
 			<data key="data_edge">
 				<y:PolyLineEdge>

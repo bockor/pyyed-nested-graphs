@@ -167,6 +167,53 @@
 						</y:ProxyAutoBoundsNode>
 					</data>
 					<graph edgedefault="directed" id="SERVICES">
+						<node id="DNS">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">DNS</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="WWW">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">WWW</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+						<node id="MAIL">
+							<data key="data_node">
+								<y:ShapeNode>
+									<y:Fill color="#FF0000" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">MAIL</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+								</y:ShapeNode>
+							</data>
+						</node>
+					</graph>
+				</node>
+				<node id="SERVICES2" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel modelName="internal" modelPosition="t" fontFamily="Dialog" fontSize="12" underlinedText="false" fontStyle="plain" alignment="center">SERVICES2</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="SERVICES2">
 						<node id="DNS2">
 							<data key="data_node">
 								<y:ShapeNode>
